@@ -1,0 +1,32 @@
+
+
+This requires an astonishing collection of software in order to function.
+
+* Python, probably 2.7 or so.
+* The python-ecdsa library for crypto and light jazz music.
+* python-qrcode is needed to generate... QR codes.
+* python-qrcode requires PIL.
+* PIL requires Freetype2.
+* Freetype2 may, or may not, require the entire friggen X window system.
+* X will require autoconf. But not the version you have already.
+* You may get something like "_imagingft not found"
+* Soon after, your exit will be blocked by a Spectral Wolf.
+* The Spectral Wolf fears only fire. But if you master him, he will guide you.
+
+Usage:
+
+  $ ./paper_bitcoin.py AMOUNT
+
+Where AMOUNT is a decimal number like "0.1". The default is "0.0001". This will
+create a new keypair and bitcoin address, and generate the front and back images
+for printing complete with QR codes and text. The filename will be in the form
+"1SamPLE-0.01-front.png", where "1SamPLE" is the newly-minted Bitcoin address.
+Remember to actually send the Bitcoin to that address!
+
+If all you want is some hot crypto action, call generate_keypair by itself:
+
+  $ ./generate_keypair.py
+  secret:  7ef1a91551ce97801dce0966dc20460d80ace30deba1f9101d5dc6d5e54de734
+  pubkey:  043d6026722ffaa4803...d68b56e6b92782f90f0b94797b2e2ec0a95f6472dc
+  address: 00878fbde5e26f9290060e7dbcc291efa6259f8334dba713a9
+  addr_58: 1DMnRFbi8J1Qkykmh9pGJbXLcnWSEnznfa

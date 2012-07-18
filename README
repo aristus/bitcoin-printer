@@ -1,4 +1,8 @@
 
+A quick script to generate "paper Bitcoins" which contain one-time-use
+keypairs and Bitcoin payment addresses.
+
+See also: http://carlos.bueno.org/2012/07/paper-bitcoins.html
 
 This requires an astonishing collection of software in order to function.
 
@@ -17,10 +21,11 @@ Usage:
 
   $ ./paper_bitcoin.py AMOUNT
 
-Where AMOUNT is a decimal number like "0.1". The default is "0.0001". This will
+Where AMOUNT is a decimal number like "0.1". The default is "0.001". This will
 create a new keypair and bitcoin address, and generate the front and back images
 for printing complete with QR codes and text. The filename will be in the form
 "1SamPLE-0.01-front.png", where "1SamPLE" is the newly-minted Bitcoin address.
+
 Remember to actually send the Bitcoin to that address!
 
 If all you want is some hot crypto action, call generate_keypair by itself:

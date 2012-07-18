@@ -80,3 +80,5 @@ privb = rotated_qr(secretb)
 back.paste(privb, (3700, 1100), privb)
 
 back.save(addr_58 + ".back.png", "PNG")
+
+print "Generated images for", addr_58

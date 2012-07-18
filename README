@@ -4,6 +4,12 @@ keypairs and Bitcoin payment addresses.
 
 See also: http://carlos.bueno.org/2012/07/paper-bitcoins.html
 
+carlos@bueno.org 17 July 2012
+BSD license: Share and enjoy, but give credit where it's due.
+
+
+INSTALLING
+
 This requires an astonishing collection of software in order to function.
 
 * Python, probably 2.7 or so.
